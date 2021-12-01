@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="stylesheet" href="estilos.css">
+    <link rel="stylesheet" href="https://unpkg.com/swiper@7/swiper-bundle.min.css" />
+    <script src="https://unpkg.com/swiper@7/swiper-bundle.min.js"></script>
+
+</head>
+
+<body>
+    <!-- HEADER -->
+
+    <div class="header">
+        <div class="column">
+            <div class="item logo">
+             <img src="Home/logotuca.png" alt="logo da puc" width="106px" height="26px"/> 
+            </div>
+        </div>
+        <div class="column">
+            <p class="item menu"> <a href="visitas.html" class="font-color">Visitas</p> </a>
+            <p class="item menu"> <a href="teatro.html" class="font-color">Teatro</a></p>
+            <p class="item menu"><a href="programacao.html" class="font-color">Programação</p></a>
+            <p class="item menu"> <a href="#contato" class="font-color link-menu color" >Contato </a></p>
+        </div>
+        <div class="column">
+        </div>
+    </div>
+
+    <!-- HERO -->
+    <div class="swiper">
+        <!-- Additional required wrapper -->
+        <div class="swiper-wrapper">
+            <!-- Slides -->
+            <div class="swiper-slide">
+                <div class="image-hero">
+                    <img src="Home/tuca-home.png" alt="imagem das cangaceiras no teatro do tuca" />
+                    <div class="hero">
+                        <p class="font-subtitle">Em cartaz</p>
+                        <p class="font-title">AS CANGACEIRAS</p>
+                        <button class="button">Saiba mais</button>
+                    </div>
+                </div>
+            </div>
+            <div class="swiper-slide">
+                <div class="image-hero">
+                    <img src="Home/tuca-home4.png" alt="imagem de um homem com braços abertos" />
+                    <div class="hero">
+                        <p class="font-subtitle">Em cartaz</p>
+                        <p class="font-title">SEDE - O MUSICAL</p>
+                        <button class="button">Saiba mais</button>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+        <!-- If we need pagination -->
+        <div class="swiper-pagination">
+        </div>
+
+    </div>
+
+    <!-- O TEATRO -->
+    <div class="image-explore">
+        <img src="Home/tuca-home2.png" alt="imagem de um espaço com várias cadeiras" class="image-space"/>
+        <div class="explore">
+            <p class="font-explore">O TEATRO</p>
+            <button class="button-explore"> <a href="teatro.html" class="color-button"> Explorar</a></button>
+        </div>
+    </div>
+
+    <!-- PROGRAMAÇÃO -->
+    <!-- Swiper -->
+    <div class="swiper mySwiper">
+        <div class="swiper-wrapper">
+            <div class="swiper-slide">
+                <div class="image-program">
+                    <img src="Home/tuca-home3.png" alt="imagem das atrizes vestidas de cangaceiras" class="image-space"/>
+                    <p class="font-program">PROGRAMAÇÃO</p>
+                    <div class="program">
+                        <div>
+                            <p class="font-program2">AS CANGACEIRAS</p>
+                            <p class="subtitle-program">Todas as sextas, sábados e domingos</p>
+                        </div>
+                        <div class="tag">
+                            Em cartaz
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="swiper-slide">
+                <div class="image-program">
+                    <img src="Home/tuca-home5.png" alt="imagem de três pessoas" class="image-space"/>
+                    <p class="font-program">PROGRAMAÇÃO</p>
+                    <div class="program">
+                        <div>
+                            <p class="font-program2">SEDE - O MUSICAL</p>
+                            <p class="subtitle-program">Todas as sextas, sábados e domingos</p>
+                        </div>
+                        <div class="tag">
+                            Em cartaz
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+        <div class="swiper-button-next"></div>
+        <div class="swiper-button-prev"></div>
+        <div class="swiper-pagination"></div>
+    </div>
+
+    <!-- LOCALIZAÇÃO -->
+    <div class="container" id="contato">
+        <div class="collapse-header">
+            <h1 class="collapse-title">LOCALIZAÇÃO</h1>
+            <div class="line"> </div>
+        </div>
+        <img src="Home/tuca-17.png" alt="mapa" class="space-mapa"/>
+    </div>
+
+    <!-- FOOTER -->
+    <footer class="footer">
+        <div class="top">
+            <div class="column">
+                <b>Tuca</b>
+                <p class="item">Quem somos</p>
+                <p class="item">Defesa do consumidor</p>
+            </div>
+            <div class="column center">
+                <b>Politícas</b>
+                <p class="item">Política de privacidade</p>
+                <p class="item">Política de cancelamento</p>
+            </div>
+            <div class="column right">
+                <div>
+                    <a class="link">
+                        <img src="Home/wpp.png" class="image" /> <u>Se precisar, fale com a gente</u>
+                    </a>
+                </div>
+                <div class="item">
+                    <img src="Home/social.png" class="image-social" />
+                </div>
+            </div>
+        </div>
+        <div class="body">
+            <div class="column">
+                <p class="item">Monte Alegre, 1024 - Perdizes, São Paulo/SP </p>
+                <p class="item">Telefones: Administração (11) 3670-8470 / Secretaria: 8458 / Locações: 8460 /
+                    Comunicação: 8462</p>
+                <p class="item"><b>Copyright © 2011 Teatro Tuca. Todos os direitos reservados.</b></p>
+            </div>
+            <div class="column">
+                <img src="Home/logopuc.png" width="187px" height="93px" />
+            </div>
+
+        </div>
+    </footer>
+    <script type="text/javascript">
+        const swiper = new Swiper('.swiper', {
+            // Optional parameters
+            loop: true,
+
+            // If we need pagination
+            pagination: {
+                el: '.swiper-pagination',
+                clickable: true,
+            },
+
+            // Navigation arrows
+            navigation: {
+                nextEl: '.swiper-button-next',
+                prevEl: '.swiper-button-prev',
+            },
+
+            // And if we need scrollbar
+            scrollbar: {
+                el: '.swiper-scrollbar',
+            },
+
+            autoplay: {
+                delay: 4000,
+                disableOnInteraction: false,
+            },
+        });
+    </script>
+</body>
+
+</html>

@@ -1,0 +1,366 @@
+body {
+  background-color: white;
+  font-family: "Helvetica";
+  margin: 0px;
+}
+img {
+  width: 100%;
+  height: auto;
+}
+.container {
+  margin-left: 72px;
+  margin-right: 72px;
+}
+
+/* HEADER */
+.header {
+  color: white;
+  font-size: 18px;
+  font-weight: normal;
+  display: flex;
+  justify-content: space-between;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  background: rgba(56, 56, 56, 0.6);
+  opacity: 0.9;
+  backdrop-filter: blur(25px);
+  align-items: center;
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  width: 100%;
+  z-index: 9;
+}
+.header .column {
+  display: flex;
+}
+.item.menu {
+  padding-right: 72px;
+  margin-top: 0px;
+}
+.item.menu.color {
+  color: #d73e3e;
+}
+.item.logo {
+  padding-left: 72px;
+}
+.font-color {
+  color: #ffffff;
+  text-decoration: none;
+}
+.font-color.link-menu.color {
+  color: #d73e3e;
+}
+/* HERO */
+.image-hero {
+  width: 100%;
+  position: relative;
+}
+.hero {
+  position: absolute;
+  left: 72px;
+  bottom: 24px;
+}
+a ~ .hero {
+  pointer-events: none;
+}
+.font-subtitle {
+  font-size: 20px;
+  color: #bbbbbb;
+  bottom: 4px;
+  margin: 0px;
+}
+.font-title {
+  font-size: 48px;
+  color: white;
+  font-weight: bold;
+  margin: 0;
+}
+.button {
+  color: white;
+  font-size: 18px;
+  font-weight: bold;
+  background-color: #d73e3e;
+  padding-bottom: 15px;
+  padding-right: 32px;
+  padding-left: 32px;
+  padding-top: 15px;
+  border-radius: 40px;
+  margin-top: 32px;
+  margin-bottom: 24px;
+  border: 0px;
+}
+.button-alternative {
+  color: #d73e3e;
+  font-size: 16px;
+  background-color: black;
+  padding-bottom: 15px;
+  padding-right: 20px;
+  padding-left: 20px;
+  padding-top: 15px;
+  border-radius: 40px;
+  margin-top: auto;
+  margin-bottom: 0px;
+  border: 0px;
+  min-width: 167px;
+}
+.button-program {
+  color: white;
+  font-size: 16px;
+  background-color: #d73e3e;
+  padding-bottom: 15px;
+  padding-right: 20px;
+  padding-left: 20px;
+  padding-top: 15px;
+  border-radius: 40px;
+  margin-top: auto;
+  margin-bottom: 0px;
+  border: 0px;
+}
+.image-space {
+  margin-top: 8px;
+}
+/* O TEATRO */
+.image-explore {
+  width: 100%;
+  position: relative;
+}
+.explore {
+  position: absolute;
+  right: 72px;
+  top: 32px;
+}
+.font-explore {
+  font-size: 32px;
+  color: white;
+  font-weight: bold;
+  margin: 0px;
+}
+
+.button-explore {
+  color: white;
+  font-size: 18px;
+  font-weight: normal;
+  padding-bottom: 15px;
+  padding-right: 48px;
+  padding-left: 48px;
+  padding-top: 15px;
+  border: 1px solid #ffffff;
+  box-sizing: border-box;
+  border-radius: 40px;
+  background-color: transparent;
+  margin-top: 16px;
+}
+
+/* CARROSSEL */
+.swiper .swiper-pagination {
+  margin-bottom: 16px;
+}
+.swiper .swiper-pagination-bullet.swiper-pagination-bullet-active {
+  background: #d73e3e;
+}
+.swiper .swiper-pagination-bullet {
+  background: #f2f2f2;
+  width: 13px;
+  height: 13px;
+}
+.swiper .swiper-button-prev {
+  color: #ffffff;
+  margin-left: 16px;
+}
+.swiper .swiper-button-next {
+  color: #ffffff;
+  margin-right: 16px;
+}
+
+/* PROGRAMAÇÃO */
+.image-program {
+  width: 100%;
+  position: relative;
+}
+.program {
+  position: absolute;
+  left: 0px;
+  top: 0;
+  right: 0px;
+  bottom: 0px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+a ~ .program {
+  pointer-events: none;
+}
+.font-program {
+  font-size: 32px;
+  color: white;
+  margin: 0px;
+  font-weight: bold;
+  left: 72px;
+  top: 32px;
+  position: absolute;
+}
+
+.font-program2 {
+  font-size: 48px;
+  color: white;
+  margin: 0px;
+  font-weight: bold;
+}
+.subtitle-program {
+  font-size: 20px;
+  font-weight: normal;
+  top: 16px;
+  color: white;
+}
+.tag {
+  bottom: 4px;
+  left: 0;
+  padding-top: 4px;
+  padding-bottom: 4px;
+  padding-right: 12px;
+  padding-left: 12px;
+  position: absolute;
+  font-size: 16px;
+  font-weight: normal;
+  background: #d73e3e;
+  border-radius: 0px 4px 0px 0px;
+  color: white;
+}
+.color-button {
+  color: #ffffff;
+  text-decoration: none;
+}
+/*  BODY - LOCALIZAÇÃO */
+
+h1 {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 40px;
+  line-height: 46px;
+  color: #000000;
+  margin: 0px;
+}
+
+.line {
+  border: 1px solid rgba(0, 0, 0, 0.9);
+  width: 100%;
+  height: 0px;
+}
+.collapse-title {
+  flex-shrink: 0;
+}
+.collapse-header {
+  display: flex;
+  align-items: center;
+  gap: 32px;
+  margin-top: 64px;
+  margin-bottom: 40px;
+}
+.space-mapa {
+  margin-bottom: 64px;
+}
+
+/* PÁGINA VISITAS */
+h2 {
+  font-size: 24px;
+  font-weight: bold;
+  margin: 0px;
+  margin-bottom: 16px;
+}
+.space-h2 {
+  margin-top: 40px;
+}
+
+.text-visitas {
+  font-size: 18px;
+  font-weight: normal;
+  margin: 0px;
+  margin-bottom: 8px;
+}
+
+/* PÁGINA PROGRAMAÇÃO  */
+.content {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+.text-programacao {
+  font-size: 16px;
+  font-weight: normal;
+  margin: 0px;
+  margin-top: 16px;
+}
+.subtitle-programacao {
+  font-size: 24px;
+  font-weight: bold;
+  margin: 0px;
+}
+.text-year {
+  font-size: 18px;
+  color: #616161;
+  flex-shrink: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  text-align: right;
+  align-self: center;
+}
+.column-space {
+  display: flex;
+  justify-content: space-between;
+  align-items: stretch;
+  margin-top: 56px;
+}
+
+.column-space img {
+  margin-left: 16px;
+  margin-right: 24px;
+  flex-basis: 446px;
+  max-width: 446px;
+}
+.column-space .content {
+  flex-basis: 80%;
+}
+/* FOOTER */
+.footer {
+  background-color: #e6e6e6;
+  padding-top: 32px;
+  padding-bottom: 32px;
+  padding-left: 72px;
+  padding-right: 72px;
+  margin-top: 40px;
+}
+.footer .top {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 56px;
+}
+.footer .body {
+  display: flex;
+  justify-content: space-between;
+}
+.footer .top .column {
+  flex-basis: 20%;
+  flex-shrink: 0;
+}
+.footer .top .column.right {
+  text-align: right;
+}
+.link {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+}
+.item {
+  margin-top: 16px;
+  margin-bottom: 0px;
+}
+.image {
+  width: 21px;
+  height: 21px;
+}
+.image-social {
+  width: 132px;
+}
