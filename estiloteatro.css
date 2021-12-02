@@ -39,17 +39,21 @@ h1 {
 }
 .item.menu {
   padding-right: 72px;
+  margin-top: 0px;
 }
 .item.menu.color {
-  color: #d73e3e;
-}
-.font-color.link-menu.color {
   color: #d73e3e;
 }
 .item.logo {
   padding-left: 72px;
 }
-
+.font-color {
+  color: #ffffff;
+  text-decoration: none;
+}
+.font-color.link-menu.color {
+  color: #d73e3e;
+}
 .line {
   border: 1px solid rgba(0, 0, 0, 0.9);
   width: 100%;

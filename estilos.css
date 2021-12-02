@@ -150,6 +150,7 @@ a ~ .hero {
   border-radius: 40px;
   background-color: transparent;
   margin-top: 16px;
+  display: inline-block;
 }
 
 /* CARROSSEL */
@@ -322,6 +323,15 @@ h2 {
 }
 .column-space .content {
   flex-basis: 80%;
+}
+.color-program
+{
+  color: white;
+  text-decoration: none;
+}
+.color-alternative {
+  color:#d73e3e;
+  text-decoration: none;
 }
 /* FOOTER */
 .footer {

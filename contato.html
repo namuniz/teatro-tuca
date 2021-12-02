@@ -5,7 +5,7 @@
     <link rel="stylesheet" href="estilos.css">
     <link rel="stylesheet" href="https://unpkg.com/swiper@7/swiper-bundle.min.css" />
     <script src="https://unpkg.com/swiper@7/swiper-bundle.min.js"></script>
-
+    <title>TUCA</title>
 </head>
 
 <body>
@@ -14,13 +14,13 @@
     <div class="header">
         <div class="column">
             <div class="item logo">
-             <img src="Home/logotuca.png" alt="logo da puc" width="106px" height="26px"/> 
+                <a href="index.html"> <img src="Home/logotuca.png" alt="logo da puc" width="106" height="26"/> </a>
             </div>
         </div>
         <div class="column">
-            <p class="item menu"> <a href="visitas.html" class="font-color">Visitas</p> </a>
+            <p class="item menu"> <a href="visitas.html" class="font-color">Visitas</a></p> 
             <p class="item menu"> <a href="teatro.html" class="font-color">Teatro</a></p>
-            <p class="item menu"><a href="programacao.html" class="font-color">Programação</p></a>
+            <p class="item menu"><a href="programacao.html" class="font-color">Programação</a></p>
             <p class="item menu"> <a href="#contato" class="font-color link-menu color" >Contato </a></p>
         </div>
         <div class="column">
@@ -51,13 +51,11 @@
                         <button class="button">Saiba mais</button>
                     </div>
                 </div>
-
             </div>
         </div>
         <!-- If we need pagination -->
         <div class="swiper-pagination">
         </div>
-
     </div>
 
     <!-- O TEATRO -->
@@ -65,7 +63,7 @@
         <img src="Home/tuca-home2.png" alt="imagem de um espaço com várias cadeiras" class="image-space"/>
         <div class="explore">
             <p class="font-explore">O TEATRO</p>
-            <button class="button-explore"> <a href="teatro.html" class="color-button"> Explorar</a></button>
+            <a href="teatro.html" class="color-button button-explore"> Explorar</a>
         </div>
     </div>
 
@@ -135,11 +133,11 @@
             <div class="column right">
                 <div>
                     <a class="link">
-                        <img src="Home/wpp.png" class="image" /> <u>Se precisar, fale com a gente</u>
+                        <img src="Home/wpp.png" alt="logo whatsapp" class="image" /> <u>Se precisar, fale com a gente</u>
                     </a>
                 </div>
                 <div class="item">
-                    <img src="Home/social.png" class="image-social" />
+                    <img src="Home/social.png" alt="logo redes sociais" class="image-social" />
                 </div>
             </div>
         </div>
@@ -151,12 +149,12 @@
                 <p class="item"><b>Copyright © 2011 Teatro Tuca. Todos os direitos reservados.</b></p>
             </div>
             <div class="column">
-                <img src="Home/logopuc.png" width="187px" height="93px" />
+                <a href="https://www5.pucsp.br/paginainicial/" target="_blank"> <img src="Home/logopuc.png" alt="logo puc" width="187" height="93" /></a>
             </div>
 
         </div>
     </footer>
-    <script type="text/javascript">
+    <script>
         const swiper = new Swiper('.swiper', {
             // Optional parameters
             loop: true,
@@ -185,5 +183,4 @@
         });
     </script>
 </body>
-
 </html>
